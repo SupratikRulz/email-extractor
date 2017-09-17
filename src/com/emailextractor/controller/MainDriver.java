@@ -10,5 +10,9 @@ public class MainDriver {
         for(int i=0;i<names.length;++i){
             System.out.println(names[i]);
         }
+        String[] contents = fileFinderObj1.extractEmailFromListOfFiles(names);
+        for(int i=0;i<contents.length;++i){
+            System.out.println(contents[i]);
+        }
     }
 }
